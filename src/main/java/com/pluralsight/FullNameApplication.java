@@ -27,8 +27,7 @@ public class FullNameApplication {
         }
         fullName += " " + lastName;
 
-        if (!suffix.isEmpty()) ;
-        {
+        if (!suffix.isEmpty()) {
             fullName += ", " + suffix;
         }
         System.out.println("Full name: " + fullName);
