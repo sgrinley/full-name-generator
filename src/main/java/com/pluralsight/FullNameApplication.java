@@ -18,8 +18,23 @@ public class FullNameApplication {
         String lastName = scanner.nextLine().trim();
 
         System.out.print("Suffix: ");
-        String suffix= scanner.nextLine().trim();
+        String suffix = scanner.nextLine().trim();
 
+        String fullName = firstName;
+
+        if (!middleName.isEmpty()) {
+            fullName += " " + middleName;
+        }
+        fullName += " " + lastName;
+
+        if (!suffix.isEmpty()) ;
+        {
+            fullName += ", " + suffix;
+        }
+        System.out.println("Full name: " + fullName);
+        scanner.close();
 
 
     }
+
+}
