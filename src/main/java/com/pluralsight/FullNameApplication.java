@@ -34,7 +34,6 @@ public class FullNameApplication {
         System.out.println("Full name: " + fullName);
         scanner.close();
 
-
     }
 
 }
